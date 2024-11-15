@@ -50,7 +50,7 @@ $mahasiswa = [
             echo "<td style='text-align: center;'>{$no}</td>"; // Kolom No.
             echo "<td style='text-align: center;'>{$mhs['nim']}</td>"; // Kolom NIM
             echo "<td style='text-align: left;'>{$mhs['nama']}</td>"; // Kolom Nama
-            echo "<td style='text-align: center;'>{$mhs['jurusan']} - {$mhs['angkatan']}</td>"; // Kolom Jurusan berisi 'jurusan - angkatan'
+            echo "<td style='text-align: left;'>{$mhs['jurusan']} - {$mhs['angkatan']}</td>"; // Kolom Jurusan berisi 'jurusan - angkatan'
             echo "<td style='text-align: center;'>{$mhs['nilai']}</td>"; // Kolom Nilai
             echo "</tr>";
             $no++;
